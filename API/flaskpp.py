@@ -17,11 +17,15 @@ def compute():
 @app.route('/result')
 def name_result():
     name = {
-        "first": "Ifeanyi",
-        "last": "Akawi",
+        "first": "Paul",
+        "last": "Omikunle",
         "course": "Data Science"
     }
-
+    {
+        "first": "Lola",
+        "last": "Omikunle",
+        "course": "Machine learning"
+    }
     return jsonify(name)
 
 
